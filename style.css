@@ -109,9 +109,10 @@ header .container {
 .hero-section .container {
   display: flex;
   align-items: center;
+ 
 }
 
-.project-managment {
+.project-managment, .work-together {
   height: 750px;
   background-color: white;
   display: flex;
@@ -119,17 +120,18 @@ header .container {
   align-items: center;
 }
 
-.project-managment .container {
+.project-managment .container , .work-together .container {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 60px;
 }
 
-.pM__text-block {
+.pM__text-block , .work-together .text-block {
   max-width: 672px;
 }
 
-.pM__text-block h2 {
+.pM__text-block h2 , .work-together .text-block h2 {
   font-size: 64px;
   color: black;
   width: 100%;
@@ -137,18 +139,18 @@ header .container {
   z-index: 2;
 }
 
-.pM__text-block p {
+.pM__text-block p , .work-together .text-block p {
   color: black;
   font-size: 18px;
   width: 100%;
   margin: 24px 0 60px;
 }
 
-.pM__text-block .heading {
+.pM__text-block .heading , .work-together .heading {
   position: relative;
 }
 
-.pM__text-block .element {
+ .element {
   position: absolute;
   bottom: -10px;
   z-index: 1;
