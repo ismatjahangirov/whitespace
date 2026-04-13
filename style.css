@@ -55,6 +55,7 @@ header {
   background-color: #4f9cf9;
   border-radius: 8px;
   border: 0;
+  color: white;
 }
 
 .header__nav {
@@ -112,7 +113,7 @@ header .container {
  
 }
 
-.project-managment, .work-together {
+.project-managment, .work-together , .use-as-extensions {
   height: 750px;
   background-color: white;
   display: flex;
@@ -120,18 +121,18 @@ header .container {
   align-items: center;
 }
 
-.project-managment .container , .work-together .container {
+.project-managment .container , .work-together .container , .use-as-extensions .container {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 60px;
 }
 
-.pM__text-block , .work-together .text-block {
+.pM__text-block , .work-together .text-block, .use-as-extensions .text-block {
   max-width: 672px;
 }
 
-.pM__text-block h2 , .work-together .text-block h2 {
+.pM__text-block h2 , .work-together .text-block h2 , .use-as-extensions h2 {
   font-size: 64px;
   color: black;
   width: 100%;
@@ -139,14 +140,14 @@ header .container {
   z-index: 2;
 }
 
-.pM__text-block p , .work-together .text-block p {
+.pM__text-block p , .work-together .text-block p , .use-as-extensions p {
   color: black;
   font-size: 18px;
   width: 100%;
   margin: 24px 0 60px;
 }
 
-.pM__text-block .heading , .work-together .heading {
+.pM__text-block .heading , .work-together .heading , .use-as-extensions .heading {
   position: relative;
 }
 
@@ -154,4 +155,12 @@ header .container {
   position: absolute;
   bottom: -10px;
   z-index: 1;
+}
+
+.use-as-extensions{
+  background-color: #043873;
+}
+
+.use-as-extensions h2 , .use-as-extensions p{
+  color: white;
 }
