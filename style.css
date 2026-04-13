@@ -164,3 +164,58 @@ header .container {
 .use-as-extensions h2 , .use-as-extensions p{
   color: white;
 }
+
+.free{
+  width: 472px;
+  height: 634px;
+  border: 1px solid #FFE492;
+  border-radius: 10px;
+  padding: 40px;
+  display: flex;
+  gap: 25px 0;
+  flex-direction: column;
+}
+
+.price{
+  height: 153px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.choose-plan{
+  background-color: white;
+}
+
+.plans{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.free button{
+  width: 166px;
+  height: 51px;
+  background-color: transparent;
+  border-radius: 8px;
+  border: 1px solid #FFE492;
+}
+
+.price span:nth-child(1){
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.price span:nth-child(2){
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.price span:nth-child(3){
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.plans span{
+  font-size: 16px;
+}
